@@ -1,0 +1,88 @@
+nav{
+	background-color: #C12127;
+	color: rgba(255,255,255,0.8);
+	padding:  15px 0 15px 0;
+	border-color: green;
+	border-style: solid;
+    border-width: 5px;
+}
+
+.main-bar{
+  position: relative;
+  border-color: pink;
+  left: 10px;
+  top: 10px;
+  border-style: solid;
+  border-width: 5px;
+
+}
+.nmp{
+	position: absolute;
+	left: 0px;
+    top: 0px;
+}
+.main-bar input{
+	display: inline-block;
+}
+.heart{
+	padding: 0 10px 0 10px; 
+}
+.acronym{
+	padding-left: 5px;
+}
+nav div{
+    display: inline-block;
+}
+nav a{
+	color:  rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+
+.top-links{
+	display: inline-block;
+	float: right;
+	padding: 0;
+	margin:0 20px 0 0;
+}
+.top-links li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+
+.nmp{
+	padding: 0 10px 0 10px;
+	width: 10px;
+	height: 10px; 
+}
+
+
+.main-bar ul{
+	display: inline-block;
+}
+.main-bar li{
+	 display: inline-block;
+	 float: left;
+}
+.banner{
+/* 	width: 400px;
+	height: 400px;
+    margin: 0 auto;	
+    color: white;
+    background-image: url("images/hero-cityscape.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 2000px 300px; */
+}
+/* .text {
+	float: left;
+	width: 400px;
+} */
+/* .image {
+	float: left;
+} */
+
+header{
+	/* background-color: rgb(32, 101, 136); */
+}
+
