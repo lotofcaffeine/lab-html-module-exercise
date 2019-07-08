@@ -8,22 +8,41 @@ nav{
 }
 
 .main-bar{
-  position: relative;
-  border-color: pink;
-  left: 10px;
-  top: 10px;
-  border-style: solid;
-  border-width: 5px;
+	padding:  0 0 15px 0;
+	border-color: blue;
+	border-style: solid;
+    border-width: 5px;
+    height: 50px;
+    vertical-align: top;
+}
+.logo{
+	
+	margin-right: 15px;
+}
+.logo img{
+	width: 60px;
+	float: left;
+	margin-right: 15px;
+	vertical-align: bottom;
+}
+.search{
+	float: left;
+    border-color: yellow;
+	border-style: solid;
+    border-width: 5px;
+	width: 60%;
+	position: relative;
+}
 
+.search input[type=button]{
+  float: left;
 }
-.nmp{
-	position: absolute;
-	left: 0px;
-    top: 0px;
+.search input[type=text]{
+	float: left;
+	width: 90%;
 }
-.main-bar input{
-	display: inline-block;
-}
+
+
 .heart{
 	padding: 0 10px 0 10px; 
 }
@@ -48,41 +67,28 @@ nav a{
 	display: inline-block;
 	margin: 0 10px;
 }
-
-
-.nmp{
-	padding: 0 10px 0 10px;
-	width: 10px;
-	height: 10px; 
-}
-
-
-.main-bar ul{
+.auth{
 	display: inline-block;
+	float: right;
+	margin:0 20px 0 0;
 }
-.main-bar li{
-	 display: inline-block;
-	 float: left;
+.auth li{
+	display: inline-block;
+	margin:0 20px 0 0;
+	text-decoration: none;
+	color: white;
 }
-.banner{
-/* 	width: 400px;
-	height: 400px;
-    margin: 0 auto;	
-    color: white;
-    background-image: url("images/hero-cityscape.svg");
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: 2000px 300px; */
+
+.links{
+	text-decoration: none;
+	color: white;
 }
-/* .text {
-	float: left;
-	width: 400px;
-} */
-/* .image {
-	float: left;
-} */
+.auth li img{
+	width: 30px;
+}
+
 
 header{
-	/* background-color: rgb(32, 101, 136); */
+	background-color: rgb(32, 101, 136); 
 }
 
